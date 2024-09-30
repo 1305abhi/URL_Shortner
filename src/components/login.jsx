@@ -78,8 +78,8 @@ const Login = () => {
       <CardHeader>
         <CardTitle>Login</CardTitle>
         <CardDescription>
-          to your account if you already have one
-        </CardDescription>
+          <div className="py-1 font-mono font-thin">If you have ACCOUNT....</div>
+          </CardDescription>
         {error && <Error message={error.message} />}
       </CardHeader>
       <CardContent className="space-y-2">

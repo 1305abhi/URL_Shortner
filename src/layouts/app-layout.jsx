@@ -8,8 +8,8 @@ const AppLayout = () => {
         <Header />
         <Outlet />
       </main>
-      <div className="p-10 text-center bg-gray-800 mt-10">
-        Made with 💗 by RoadsideCoder
+      <div className="p-1 text-center bg-gray-800 mt-10">
+        Eaily Remember Your URLs...!
       </div>
     </div>
   );

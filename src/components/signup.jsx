@@ -58,7 +58,7 @@ const Signup = () => {
         password: Yup.string()
           .min(6, "Password must be at least 6 characters")
           .required("Password is required"),
-        profile_pic: Yup.mixed().required("Profile picture is required"),
+        
       });
 
       await schema.validate(formData, {abortEarly: false});
@@ -82,7 +82,7 @@ const Signup = () => {
       <CardHeader>
         <CardTitle>Signup</CardTitle>
         <CardDescription>
-          Create a new account if you haven&rsquo;t already
+        <div className="py-1 font-mono font-thin">Creaet a New ACCOUNT....</div>
         </CardDescription>
         {error && <Error message={error?.message} />}
       </CardHeader>

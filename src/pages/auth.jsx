@@ -18,9 +18,9 @@ function Auth() {
 
   return (
     <div className="mt-36 flex flex-col items-center gap-10">
-      <h1 className="text-5xl font-extrabold">
+      <h1 className="sm:text-3xl lg:text-4xl font-serif font-extralight">
         {searchParams.get("createNew")
-          ? "Hold up! Let's login first.."
+          ? "Authenticate YourSelf......"
           : "Login / Signup"}
       </h1>
       <Tabs defaultValue="login" className="w-[400px]">
