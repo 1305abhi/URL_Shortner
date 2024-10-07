@@ -76,7 +76,7 @@ const LinkPage = () => {
             {url?.title}
           </span>
           <a
-            href={`https://rapidurl.uk.to/${link}`}
+            href={`https://url-shortner-23bx.onrender.com/${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"
           >
