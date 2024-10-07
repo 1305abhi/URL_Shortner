@@ -76,11 +76,11 @@ const LinkPage = () => {
             {url?.title}
           </span>
           <a
-            href={`http://localhost:5173/${link}`}
+            href={`https://rapidurl.uk.to/${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"
           >
-            http://localhost:5173/{link}
+            https://rapidurl.uk.to/{link}
           </a>
           <a
             href={url?.original_url}
