@@ -82,7 +82,7 @@ const Signup = () => {
       <CardHeader>
         <CardTitle>Signup</CardTitle>
         <CardDescription>
-        <div className="py-1 font-mono font-thin">Creaet a New ACCOUNT....</div>
+        <div className="py-1 font-mono font-thin">Create a New ACCOUNT....</div>
         </CardDescription>
         {error && <Error message={error?.message} />}
       </CardHeader>
